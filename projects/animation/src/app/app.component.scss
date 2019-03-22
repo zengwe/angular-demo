@@ -1,0 +1,27 @@
+.app-root{
+  display: block;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  .content{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 40px;
+    left: 0px;
+    width: 100%;
+  }
+  .links{
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 00px;
+    left: 0px;    
+    width: 100%;
+  }
+}

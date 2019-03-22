@@ -1,0 +1,10 @@
+<div >
+  <input type="text" [(ngModel)]="myvalue">
+</div>
+<div>
+  <div *ngFor="let str of arr;let i = index">
+    {{str}}
+    <zzj-input [(ngModel)]="arr[i]"></zzj-input>
+  </div>
+  <button (click)="consoleLog()">show</button>
+</div>
