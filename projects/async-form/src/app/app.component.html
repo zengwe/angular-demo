@@ -1,5 +1,10 @@
-<form >
-  <div class="input-area">
-    <input >
-  </div>
-</form>
+<div class="">
+  <form [formGroup]="validateForm" zzjSubmit>
+    <input type="text" formControlName="name">
+    <app-child-comp  formControlName="childValue" appChildD></app-child-comp>
+    <app-child-comp  formControlName="childValue2" dddappChildD></app-child-comp>
+    <button type='submit'>submit</button>
+  </form>
+  <app-child-comp  [(ngModel)]="out"></app-child-comp>
+  <button (click)="showthis()">show this</button>
+</div>
